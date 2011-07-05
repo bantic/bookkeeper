@@ -1,0 +1,61 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    alias (0.2.2)
+    awesome_print (0.4.0)
+    boson (0.3.3)
+      alias (>= 0.2.2)
+      hirb (>= 0.3.5)
+    clipboard (0.9.9)
+    coderay (0.9.8)
+    every_day_irb (1.0.4)
+    fancy_irb (0.6.5)
+      unicode-display_width (>= 0.1.1)
+      wirb (>= 0.2.4)
+    g (1.4.0)
+      ruby-growl (>= 1.0.1)
+    hirb (0.4.5)
+    interactive_editor (0.0.8)
+      spoon (>= 0.0.1)
+    irbtools (1.0.4)
+      awesome_print (~> 0.4.0)
+      boson (>= 0.3.3)
+      clipboard (>= 0.9.8)
+      coderay (~> 0.9)
+      every_day_irb (>= 1.0.4)
+      fancy_irb (>= 0.6.5)
+      g
+      hirb (~> 0.4.5)
+      interactive_editor (>= 0.0.8)
+      methodfinder (>= 1.2.3)
+      ori (~> 0.1.0)
+      rvm_loader (>= 1.0.0)
+      sketches
+      wirb (>= 0.3.0)
+      zucker (>= 11)
+    mechanize (2.0.1)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 1.8)
+      nokogiri (~> 1.4)
+      webrobots (~> 0.0, >= 0.0.9)
+    methodfinder (1.2.3)
+    net-http-digest_auth (1.1.1)
+    net-http-persistent (1.8)
+    nokogiri (1.5.0)
+    ori (0.1.0)
+    ruby-growl (3.0)
+    rvm_loader (1.0.0)
+    sketches (0.1.1)
+    spoon (0.0.1)
+    unicode-display_width (0.1.1)
+    webrobots (0.0.10)
+      nokogiri (>= 1.4.4)
+    wirb (0.3.2)
+    zucker (11)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  irbtools
+  mechanize (~> 2.0.1)
