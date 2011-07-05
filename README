@@ -1,0 +1,4 @@
+roadmap:
+
+ * follow the search page with user input and click the 'place hold' link
+ * make sure this works if you have already logged in to the lib too
